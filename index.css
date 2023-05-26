@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+    opacity: 0.8;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  .header {
+    margin: 0;
+    color:orangered;
+  }
+  .links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  .links li {
+    margin: 0 10px;
+  }
+  .links a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Gill Sans SemiBold;
+  }
+  html, body {
+    margin: 0.5;
+    padding: 0.5;
+  }
